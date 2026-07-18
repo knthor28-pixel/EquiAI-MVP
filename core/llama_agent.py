@@ -1,3 +1,8 @@
+"""
+2. The Context-Aware AI Generator (core/llama_agent.py)
+This script pulls our Groq key directly from Streamlit’s native server environment and wraps our metrics inside platform-specific software fixes.
+"""
+
 import streamlit as st
 from groq import Groq
 
