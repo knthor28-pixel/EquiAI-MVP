@@ -13,7 +13,7 @@ st.markdown("---")
 st.sidebar.header("🔌 Environment Setup")
 selected_ats = st.sidebar.selectbox(
     "Target Screening Platform:",
-    ["Workday Recruiting", "Greenhouse", "Oracle Recruiting Cloud"]
+    ["Workday Recruiting", "Greenhouse"]
 )
 
 st.sidebar.markdown("---")
