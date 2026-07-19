@@ -8,6 +8,7 @@ from .prompt_builder import PromptBuilder
 from .query_builder import QueryBuilder
 from .citation_formatter import CitationFormatter
 from .validator import Validator
+from .pdf_loader import PDFLoader
 
 __all__ = [
     "LegalRAGPipeline",
@@ -22,4 +23,5 @@ __all__ = [
     "QueryBuilder",
     "CitationFormatter",
     "Validator",
+    "PDFLoader",
 ]
