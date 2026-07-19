@@ -5,6 +5,51 @@ from core.llama_agent import generate_compliance_prose
 
 # 1. UI Page Canvas Settings
 st.set_page_config(page_title="EquiAudit AI", page_icon="⚖️", layout="wide")
+
+# 1.1. Custom CSS for styling
+st.markdown(
+    """
+    <style>
+    .reportview-container .main {
+        background-color: #FFF9F1;
+        color: #171717;
+    }
+    .stApp {
+        background: linear-gradient(180deg, #FFF9F1 0%, #FFF4EA 100%);
+    }
+    .stButton>button {
+        background-color: #748BC5;
+        color: white;
+        border: none;
+    }
+    .stButton>button:hover {
+        background-color: rgb(86,105,166);
+        color: white;
+    }
+    .css-1d391kg {
+        background-color: #FFFFFF;
+        border-radius: 16px;
+    }
+    .css-1d391kg .st-expander {
+        background-color: #FFFFFF;
+    }
+    .stSidebar {
+        background-color: #F1DDDA;
+    }
+    .css-1v0mbdj {
+        color: #171717;
+    }
+    .css-1cpxqw2 {
+        color: #748BC5;
+    }
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4 {
+        color: #171717;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("⚖️ EquiAudit AI")
 st.subheader("Universal Fairness & Bias Optimization Platform")
 st.markdown("---")
