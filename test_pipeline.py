@@ -5,7 +5,7 @@ from core.math_engine import calculate_funnel_bias
 from core.llama_agent import generate_compliance_prose
 
 def run_local_test():
-    print("🚀 Initializing EquiAudit AI Local Test Pipeline...\n")
+    print("Initializing EquiAudit AI Local Test Pipeline...\n")
     
     # 1. Load the mock data
     csv_path = "mock_hiring_data.csv"
